@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Overpriced Bean Water"
+    },
+    {
+      "id": 2,
+      "name": "Artisinal Chocolate Nibs"
+    },
+    {
+      "id": 3,
+      "name": "Organic Grass-Fed Soylent"
+    }
+  ],
+  "sizes": [
+    {
+      "id": 1,
+      "size": "Mini"
+    },
+    {
+      "id": 2,
+      "size": "Middie"
+    },
+    {
+      "id": 3,
+      "size": "Biggie"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerName": "Trevan",
+      "quantity": 2,
+      "productId": 1,
+      "sizeId": 1
+    },
+    {
+      "customerName": "",
+      "quantity": "Overpriced Bean Water",
+      "productId": "",
+      "sizeId": "Mini",
+      "id": 2
+    },
+    {
+      "customerName": "",
+      "quantity": "Overpriced Bean Water",
+      "productId": "",
+      "sizeId": "Mini",
+      "id": 3
+    },
+    {
+      "customerName": "James Farrell",
+      "quantity": "Organic Grass-Fed Soylent",
+      "productId": "3",
+      "sizeId": "Middie",
+      "id": 4
+    },
+    {
+      "customerName": "Fred Savage",
+      "quantity": "Artisinal Chocolate Nibs",
+      "productId": "100",
+      "sizeId": "Middie",
+      "id": 5
+    }
+  ]
+}
